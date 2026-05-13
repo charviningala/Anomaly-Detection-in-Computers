@@ -3,7 +3,7 @@
 ## Anomaly Detection
 
 ## Objective
-This project demonstrates approaches to anomaly detection and reasoning on infrastructure-level metrics, as part of the SentinelOps internship assignment. The focus is on AI/ML fundamentals, reasoning, and clear explanations, not DevOps or cloud expertise.
+This project demonstrates approaches to anomaly detection and reasoning on infrastructure-level metrics. The focus is on AI/ML fundamentals, reasoning, and clear explanations, not DevOps or cloud expertise.
 
 ## Problem Statement
 Given metrics for a set of resources, the goal is to:
