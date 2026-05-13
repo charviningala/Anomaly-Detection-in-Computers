@@ -1,0 +1,47 @@
+[
+  {
+    "resource_id": "t1",
+    "is_anomalous": true,
+    "anomaly_type": "over_provisioned",
+    "reason": "Low CPU but high memory usage",
+    "suggested_action": "Downsize instance",
+    "confidence": 0.84,
+    "security_note": "Internet-facing resource with identity attached may introduce risk"
+  },
+  {
+    "resource_id": "t2",
+    "is_anomalous": true,
+    "anomaly_type": "cpu_spike",
+    "reason": "CPU usage consistently very high",
+    "suggested_action": "Scale up or load balance",
+    "confidence": 0.97,
+    "security_note": null
+  },
+  {
+    "resource_id": "t3",
+    "is_anomalous": false,
+    "anomaly_type": "normal",
+    "reason": "Usage within normal range",
+    "suggested_action": "No action needed",
+    "confidence": 1.0,
+    "security_note": null
+  },
+  {
+    "resource_id": "t4",
+    "is_anomalous": true,
+    "anomaly_type": "network_anomaly",
+    "reason": "High network utilization",
+    "suggested_action": "Check traffic patterns or scaling",
+    "confidence": 0.98,
+    "security_note": "Internet-facing resource with identity attached may introduce risk"
+  },
+  {
+    "resource_id": "t5",
+    "is_anomalous": false,
+    "anomaly_type": "normal",
+    "reason": "Usage within normal range",
+    "suggested_action": "No action needed",
+    "confidence": 0.99,
+    "security_note": null
+  }
+]
